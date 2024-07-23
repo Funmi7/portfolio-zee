@@ -15,6 +15,8 @@ const config: Config = {
       },
       colors: {
         purple: "#5e3bee",
+        black: "#080a16",
+        gray: "#2d3952",
       },
     },
   },
