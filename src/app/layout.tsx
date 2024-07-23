@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased mx-4 lg:mx-auto mb-10">
+      <body className="antialiased mx-4 lg:mx-auto mb-10 ">
         <TopNavigation />
         <main className="flex-auto min-w-0 max-w-7xl flex flex-col mx-auto my-8 px-2 md:px-0">
           {children}
