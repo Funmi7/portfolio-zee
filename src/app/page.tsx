@@ -13,7 +13,7 @@ export default function Home() {
             <h3 className="text-purple dark:text-purple text-2xl font-semibold">
               Hello, I'm
             </h3>
-            <h1 className="font-black text-7xl">Chizaram Orji</h1>
+            <h1 className="font-black text-5xl">Chizaram Orji</h1>
             <div>
               <TypeAnimation
                 sequence={[
@@ -30,6 +30,9 @@ export default function Home() {
                 repeat={Infinity}
               />
             </div>
+            <button className="bg-purple rounded-md p-2 w-[140px] text-white">
+              My Projects
+            </button>
           </div>
           <div className="w-1/2 h-[50vh]">
             <Image
@@ -45,12 +48,6 @@ export default function Home() {
           Biography
           <div className="bg-gray h-px ml-8 w-3/12" />
         </h1>
-        {/* <p className="mt-10">
-          Hello! My name is Alex Johnson, a passionate web developer and
-          designer with a keen eye for detail and a drive for excellence. I
-          specialize in creating interactive, responsive, and visually appealing
-          websites that not only meet but exceed client expectations.
-        </p> */}
         <div className="flex items-center justify-between mt-10 gap-12">
           <div className="w-1/2">
             <h3 className="text-2xl font-semibold text-purple mb-4">

@@ -27,9 +27,9 @@ const TopNavigation = () => {
   const routePath = usePathname();
   return (
     // <aside className="-ml-[8px] mb-16 tracking-tight">
-    <div className="lg:sticky lg:top-0 bg-white">
+    <div className="lg:sticky lg:top-0 bg-white dark:bg-black-100  py-4">
       <nav
-        className="flex flex-row justify-between max-w-7xl mx-auto my-0 items-center relative  py-4 px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+        className="flex flex-row justify-between max-w-7xl mx-auto my-0 items-center relative  px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
         id="nav"
       >
         <div>LOGO</div>
