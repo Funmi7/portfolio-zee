@@ -1,5 +1,6 @@
 import Image from "next/image";
-const Page = () => {
+
+const Projects = () => {
   return (
     <main>
       <h1 className="font-bold text-5xl flex items-center justify-center">
@@ -116,4 +117,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Projects;
