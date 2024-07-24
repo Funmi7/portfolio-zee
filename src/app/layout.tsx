@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import TopNavigation from "@component/components/TopNavigation";
 
-export const baseUrl = "https://zaraorji.vercel.app/";
+const baseUrl = "https://zaraorji.vercel.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
