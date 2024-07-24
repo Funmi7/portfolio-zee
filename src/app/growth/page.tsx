@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 
 import growthImg from "@component/assets/growth-illus.svg";
 import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
+import AnimatedSection from "@component/components/AnimatedSection";
 
 const items = [
   {
@@ -43,72 +47,77 @@ const Growth = () => {
         Growth
         <div className="bg-gray h-px ml-8 w-3/12" />
       </h1>
+      <Fade>
+        <AnimatedSection>
+          <section className="flex min-h-[60vh] flex-col md:flex-row p-6 sm:p-12 lg:p-24 justify-center items-center bg-neutral-100 dark:bg-black mt-20">
+            <div className="w-full md:w-1/2">
+              <Image
+                src={growthImg}
+                alt="An illutration of growth"
+                className="max-w-full"
+              />
+            </div>
+            <div className="w-full md:w-1/2">
+              <p>
+                Whilst working as a product manager intern in HNG with team
+                telex, I have learned a lot and improved in the following
+                aspects:
+              </p>
 
-      <section className="flex min-h-[60vh] flex-col-reverse md:flex-row justify-center items-center p-24 bg-neutral-100 dark:bg-black mt-20">
-        <div className="w-full md:w-1/2">
-          <Image
-            src={growthImg}
-            alt="An illutration of growth"
-            className="max-w-full"
-          />
-        </div>
-        <div className="w-full md:w-1/2">
-          <p>
-            Whilst working as a product manager intern in HNG with team telex, I
-            have learned a lot and improved in the following aspects:
-          </p>
+              <p className="mt-6">
+                <b>Knowledge Expansion:</b> Collaborating with other interns and
+                mentors from different tracks (developers, designers, video
+                marketers, data analysts etc.) has allowed me to learn about
+                various aspects of product development, including technical
+                constraints, user experience design principles, and marketing
+                strategies
+              </p>
 
-          <p className="mt-6">
-            <b>Knowledge Expansion:</b> Collaborating with other interns and
-            mentors from different tracks (developers, designers, video
-            marketers, data analysts etc.) has allowed me to learn about various
-            aspects of product development, including technical constraints,
-            user experience design principles, and marketing strategies
-          </p>
+              <p className="mt-6">
+                <b>Enhanced Communication Skills: </b>
+                Collaborating with team members from various tracks has helped
+                improve my ability to communicate complex ideas clearly and
+                effectively to diverse audiences.
+              </p>
+              <p className="mt-6">
+                <b>Problem-Solving Abilities: </b>
+                Facing unique challenges that requires innovative solutions has
+                enabled me hone my problem-solving skills as I work with others
+                to overcome obstacles.
+              </p>
+              <p className="mt-6">
+                <b>Network Building: </b>
+                Interacting with professionals, mentors and interns from various
+                tracks has expanded my professional network, which can provide
+                support, resources, and opportunities for future growth.
+              </p>
 
-          <p className="mt-6">
-            <b>Enhanced Communication Skills: </b>
-            Collaborating with team members from various tracks has helped
-            improve my ability to communicate complex ideas clearly and
-            effectively to diverse audiences.
-          </p>
-          <p className="mt-6">
-            <b>Problem-Solving Abilities: </b>
-            Facing unique challenges that requires innovative solutions has
-            enabled me hone my problem-solving skills as I work with others to
-            overcome obstacles.
-          </p>
-          <p className="mt-6">
-            <b>Network Building: </b>
-            Interacting with professionals, mentors and interns from various
-            tracks has expanded my professional network, which can provide
-            support, resources, and opportunities for future growth.
-          </p>
-
-          <p className="mt-6">
-            I have learned a lot and still learning and gaining much needed
-            experience from{" "}
-            <Link
-              href="https://hng.tech/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-purple"
-            >
-              HNG Tech
-            </Link>{" "}
-            and{" "}
-            <Link
-              href="https://hng.tech/internship"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-purple"
-            >
-              HNG Internship
-            </Link>
-            .
-          </p>
-        </div>
-      </section>
+              <p className="mt-6">
+                I have learned a lot and still learning and gaining much needed
+                experience from{" "}
+                <Link
+                  href="https://hng.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple"
+                >
+                  HNG Tech
+                </Link>{" "}
+                and{" "}
+                <Link
+                  href="https://hng.tech/internship"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple"
+                >
+                  HNG Internship
+                </Link>
+                .
+              </p>
+            </div>
+          </section>
+        </AnimatedSection>
+      </Fade>
 
       <h3 className="  text-3xl font-semibold mt-20 text-center">
         {" "}

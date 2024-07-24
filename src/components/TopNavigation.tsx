@@ -6,6 +6,7 @@ import { useState } from "react";
 
 import { cn } from "@component/utils/Functions";
 import MobileSideMenu from "./MobileSideMenu";
+import zaraLogo from "../../public/images/zara-logo-a.png";
 
 export const navItems = {
   "/": {
@@ -34,10 +35,17 @@ const TopNavigation = () => {
   return (
     <div className="lg:sticky lg:top-0 bg-white dark:bg-black-100  py-4 z-10">
       <nav
-        className="hidden md:flex flex-row justify-between max-w-7xl mx-auto my-0 items-center relative  px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+        className="hidden md:flex flex-row justify-between max-w-7xl mx-auto my-0 items-center relative  px-6 pb-0 fade scroll-pr-6 md:relative"
         id="nav"
       >
-        <div>LOGO</div>
+        <div className="dark:bg-neutral-100 dark:p-1 dark:rounded-full">
+          <Image
+            src={zaraLogo}
+            alt="My name as an acronym on a purple background"
+            width={70}
+            height={70}
+          />
+        </div>
         <div className="flex flex-row space-x-0 gap-8">
           {Object.entries(navItems).map(([path, { name }]) => {
             return (
