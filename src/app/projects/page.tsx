@@ -2,12 +2,18 @@
 
 import Image from "next/image";
 import { Fade, Slide, Hinge } from "react-awesome-reveal";
+import Carousel from "react-material-ui-carousel";
 
 import telexImg from "../../../public/images/_murtax_design.png";
 import boilerPlateImg from "../../../public/images/boiler-plate.png";
+import telexAImg from "../../../public/images/telex-1.png";
+import telexBImg from "../../../public/images/telex-2.png";
+import boilerPlateAImg from "../../../public/images/boiler-plate-1.png";
+import boilerPlateBImg from "../../../public/images/boiler-plate-2.png";
 
 import AnimatedSection from "@component/components/AnimatedSection";
-
+const telexImages = [telexImg, telexAImg, telexBImg];
+const boilerImages = [boilerPlateImg, boilerPlateAImg, boilerPlateBImg];
 const Projects = () => {
   return (
     <main>
@@ -20,14 +26,31 @@ const Projects = () => {
         <AnimatedSection>
           <section className="flex flex-col md:flex-row items-start justify-between mt-10 gap-12">
             <div className="w-full md:w-1/2">
-              <div className="w-full">
-                <Image
+              <div className="w-full min-h-[250px] md:min-h-[350px]">
+                {/* <Image
                   src={telexImg}
                   alt="dummy image"
                   className="max-w-full rounded-md shadow-md"
                   sizes="(max-width:100%)"
                   height={400}
-                />
+                /> */}
+                <Carousel
+                  animation="slide"
+                  autoPlay={true}
+                  indicators={false}
+                  duration={1000}
+                >
+                  {telexImages.map((item, index) => (
+                    <Image
+                      key={"images-telex" + index}
+                      src={item}
+                      alt="dummy image"
+                      className="max-w-full rounded-md shadow-md"
+                      sizes="(max-width:100%)"
+                      height={index === 0 ? 400 : 338}
+                    />
+                  ))}
+                </Carousel>
               </div>
 
               <h3 className="text-4xl font-bold text-purple mt-10 mb-4">
@@ -77,14 +100,31 @@ const Projects = () => {
               </ul>
             </div>
             <div className="w-full md:w-1/2">
-              <div className="w-full">
-                <Image
+              <div className="w-full min-h-[250px] md:min-h-[350px]">
+                {/* <Image
                   src={boilerPlateImg}
                   alt="dummy image"
                   className="max-w-full rounded-md shadow-md"
                   height={338}
                   sizes="(max-width:100%)"
-                />
+                /> */}
+                <Carousel
+                  animation="slide"
+                  autoPlay={true}
+                  indicators={false}
+                  duration={1000}
+                >
+                  {boilerImages.map((item, index) => (
+                    <Image
+                      key={"images-boiler" + index}
+                      src={item}
+                      alt="dummy image"
+                      className="max-w-full rounded-md shadow-md"
+                      sizes="(max-width:100%)"
+                      height={338}
+                    />
+                  ))}
+                </Carousel>
               </div>
 
               <h3 className="text-4xl font-bold text-purple mt-10 mb-4">
@@ -120,14 +160,11 @@ const Projects = () => {
                 <li>Slack</li>
               </ul>
             </div>
-            ;
           </section>
         </AnimatedSection>
       </Fade>
     </main>
   );
 };
-
-//               <div className="w-full bg-no-repeat bg-cover rounded-md">
 
 export default Projects;
