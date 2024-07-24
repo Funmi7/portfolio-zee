@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Fade, Slide } from "react-awesome-reveal";
 
 import IllusImage from "@component/assets/illus.svg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -33,9 +34,11 @@ export default function Home() {
                   repeat={Infinity}
                 />
               </div>
-              <button className="bg-purple rounded-md p-2 w-[140px] text-white">
-                My Projects
-              </button>
+              <Link href="/projects">
+                <button className="bg-purple rounded-md p-2 w-[140px] text-white">
+                  My Projects
+                </button>
+              </Link>
             </div>
             <div className="lg:h-[50vh] md:h-auto lg:w-1/2 md:w-full">
               <Image

@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
 import "./globals.css";
 import TopNavigation from "@component/components/TopNavigation";
 
@@ -44,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon/icon.ico" sizes="any" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -62,6 +60,8 @@ export default function RootLayout({
           sizes="16x16"
           href="/favicon/favicon-16x16.png"
         />
+        <link rel="manifest" href="app/favicon/site.webmanifest" />
+        <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" />
       </head>
       <body className="antialiased mx-4 lg:mx-auto mb-10 ">
         <TopNavigation />

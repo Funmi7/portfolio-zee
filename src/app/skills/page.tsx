@@ -1,23 +1,24 @@
 "use client";
 
 import Image from "next/image";
+import { Fade, Slide } from "react-awesome-reveal";
 
 import ownershipImg from "@component/assets/icons/ownership.svg";
 import interationImg from "@component/assets/icons/iteration.svg";
 import designImg from "@component/assets/icons/ui-ux.svg";
-import toolsImg from "@component/assets/icons/tools.svg";
-import writingImg from "@component/assets/icons/writing.svg";
+import toolsImg from "@component/assets/icons/design-thinking.svg";
+import writingImg from "@component/assets/icons/sheet.svg";
 import agileImg from "@component/assets/icons/scrum.svg";
 import taskImg from "@component/assets/icons/assignment.svg";
-import adaptionImg from "@component/assets/icons/adaptation.svg";
+import adaptionImg from "@component/assets/icons/adapt.svg";
 import communicationImg from "@component/assets/icons/conversation.svg";
 import decisionImg from "@component/assets/icons/decision-making.svg";
 import designThinking from "@component/assets/icons/design-thinking.svg";
-import empathyImg from "@component/assets/icons/empathy.svg";
+import empathyImg from "@component/assets/icons/encourage.svg";
 import ideaImg from "@component/assets/icons/idea.svg";
 import projectMgtImg from "@component/assets/icons/project-management.svg";
-import leaderImg from "@component/assets/icons/team-leader.svg";
-import { Fade, Slide } from "react-awesome-reveal";
+import leaderImg from "@component/assets/icons/leadership.svg";
+
 import AnimatedSection from "@component/components/AnimatedSection";
 const techSkills = [
   {
@@ -30,7 +31,7 @@ const techSkills = [
     icon: agileImg,
     name: "Agile Methodologies",
     details:
-      "I am familiar with agile frameworks like scrum and kanban, including spring planning, backlog grooming, and conducting restropectives",
+      "I am familiar with agile frameworks like scrum and kanban, including sprint planning, backlog grooming, and conducting restropectives",
   },
   {
     icon: designImg,
