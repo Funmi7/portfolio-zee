@@ -66,7 +66,14 @@ const TopNavigation = () => {
         </div>
       </nav>
       <nav className="md:hidden flex w-full justify-between">
-        <div>LOGO</div>
+        <div className="dark:bg-neutral-100 dark:p-1 dark:rounded-full">
+          <Image
+            src={zaraLogo}
+            alt="My name as an acronym on a purple background"
+            width={70}
+            height={70}
+          />
+        </div>
         <div>
           <button
             className="flex items-center justify-center w-10 h-10 text-gray-500 focus:outline-none"
