@@ -2,9 +2,10 @@
 
 import Image from "next/image";
 
-import growthImg from "@component/assets/growth-illus.svg";
 import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
+
+import growthImg from "@component/assets/growth-illus.svg";
 import AnimatedSection from "@component/components/AnimatedSection";
 
 const items = [
