@@ -151,3 +151,12 @@ table {
 .title {
   text-wrap: balance;
 }
+
+.react-type-style {
+  font-size: 1.5rem;
+  color: #5e3bee;
+
+  @media (max-width: 639px) {
+    font-size: 0.875rem;
+  }
+}
