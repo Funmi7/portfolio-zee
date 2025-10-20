@@ -110,7 +110,7 @@ export default function Home() {
               <h3 className="text-2xl font-semibold text-purple mb-4">
                 Education
               </h3>
-              <p className="font-semibold">Google Project Management</p>
+              <p className="font-semibold text-xl">Google Project Management</p>
               <ul className="list-disc ml-4 mt-4 flex flex-col gap-4">
                 <li>Foundations of project management</li>
                 <li>Project initiation: Starting a successful project</li>
@@ -120,7 +120,7 @@ export default function Home() {
                 <li>Capstone: Applying project management in the real world</li>
               </ul>
 
-              <p className="font-semibold">
+              <p className="font-semibold pt-8 text-xl">
                 AltSchool Africa - School of Product
               </p>
               <ul className="list-disc ml-4 mt-4 flex flex-col gap-4">
