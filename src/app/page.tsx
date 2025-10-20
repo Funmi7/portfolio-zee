@@ -77,21 +77,30 @@ export default function Home() {
                 Background
               </h3>
               <p>
-                From a young age, I have been fascinated by how applications
-                come to be. Even though I studied microbiology in a higher
-                institution, my passion was in building applications and
-                bringing products to life. This led me to begin researching and
-                discovering more about product management. Furthermore, I
-                decided to undertake a Google Project Management course with
-                Coursera, where I gained essential project management skills
-                needed to succeed as a project manager through Google’s
-                methodology.
-                <br />
-                <br />
-                Currently, I am a product manager intern with HNG which is a
-                fast paced bootcamp for learning digital skills focused on
-                advanced learners and those with some pre-knowledge, and it gets
-                people into shape for job offers.
+                From an early age, I’ve always been intrigued by how
+                applications are designed, built, and brought to life. Although
+                I studied Microbiology in higher institution, my curiosity and
+                passion for technology led me into the world of product
+                management, where I found the perfect balance between
+                problem-solving, collaboration, and innovation.
+                <br /> <br /> To build a solid foundation, I completed the
+                Google Project Management Certification on Coursera, gaining
+                hands-on knowledge in Agile methodologies, project planning, and
+                stakeholder management. This training helped me transition into
+                tech with a strong focus on product strategy and delivery.{" "}
+                <br /> <br />
+                My journey began at HNG, a fast-paced bootcamp for advanced
+                learners, where I worked as a Product Manager Intern and later
+                as an Apprentice Product Manager. I collaborated with engineers,
+                designers, and testers to build a real-time notification app for
+                IT professionals, facilitating sprints, managing timelines, and
+                aligning product goals with team output. <br /> <br />
+                Currently, I serve as a Product Manager at She Code Africa,
+                where I’m leading the total revamp of the organization’s website
+                and managing the Admin Web App. In this role, I function as both
+                a Product Manager and Scrum Master, ensuring smooth coordination
+                between cross-functional teams while maintaining agile
+                principles
               </p>
             </div>
           </div>
@@ -103,15 +112,54 @@ export default function Home() {
               </h3>
               <p className="font-semibold">Google Project Management</p>
               <ul className="list-disc ml-4 mt-4 flex flex-col gap-4">
-                <li className="">Foundations of project management</li>
-                <li className="">
-                  Project initiation: Starting a successful project
+                <li>Foundations of project management</li>
+                <li>Project initiation: Starting a successful project</li>
+                <li>Project Planning: Putting it all together</li>
+                <li>Project execution: Running the project</li>
+                <li>Agile project management</li>
+                <li>Capstone: Applying project management in the real world</li>
+              </ul>
+
+              <p className="font-semibold">
+                AltSchool Africa - School of Product
+              </p>
+              <ul className="list-disc ml-4 mt-4 flex flex-col gap-4">
+                <li>
+                  Understanding the full product lifecycle: ideation → launch →
+                  post-launch
                 </li>
-                <li className="">Project Planning: Putting it all together</li>
-                <li className="">Project execution: Running the project</li>
-                <li className="">Agile project management</li>
-                <li className="">
-                  Capstone: Applying project management in the real world
+                <li>
+                  Cultivating a product-focused mindset: identifying
+                  opportunities, solving problems, and delivering exceptional
+                  user experiences.
+                </li>
+                <li>
+                  Applying feature & initiative prioritisation techniques that
+                  balance business goals and customer needs.
+                </li>
+                <li>
+                  Crafting and maintaining product roadmaps aligned with company
+                  objectives and timelines.
+                </li>
+                <li>
+                  Executing successful product launches, from planning through
+                  execution, into market entry.
+                </li>
+                <li>
+                  Mastering multiple development methodologies — Agile, Scrum
+                  and Waterfall — to improve product development processes.
+                </li>
+                <li>
+                  Employing Design Thinking and prototyping to iteratively
+                  refine product ideas and enhance usability.
+                </li>
+                <li>
+                  Gaining proficiency in market research, customer insights and
+                  turning data into actionable requirements.
+                </li>
+                <li>
+                  Strengthening communication skills for effective stakeholder
+                  engagement, team alignment and product advocacy
                 </li>
               </ul>
             </div>
@@ -120,7 +168,50 @@ export default function Home() {
                 Professional Experience
               </h3>
               <h4 className="text-xl font-semibold">
-                Product Manager Intern - HNG (current)
+                Product Manager - SheCodeAfrica (current)
+              </h4>
+              <p className="mt-4 mb-4">
+                SheCodeAfrica is an organization that empowers women in tech
+                through training, mentorship, and networking opportunities. As a
+                Product Manager, I lead the development of initiatives aimed at
+                increasing female participation in technology and providing
+                resources for their professional growth.
+              </p>
+              <ul>
+                My key responsibilities include:
+                <li className="list-disc pl-2 mt-2">
+                  Facilitating Agile ceremonies such as sprint planning, daily
+                  stand-ups, and retrospectives.
+                </li>
+                <li className="list-disc pl-2">
+                  Managing product roadmaps and prioritizing features based on
+                  user feedback, impact, and timelines.
+                </li>
+                <li className="list-disc pl-2">
+                  Collaborating with developers and designers to translate
+                  requirements into actionable tasks in linear.
+                </li>
+                <li className="list-disc pl-2">
+                  Coordinating stakeholder communication, gathering feedback,
+                  and ensuring approvals align with business goals.
+                </li>
+                <li className="list-disc pl-2">
+                  Tracking progress and ensuring timely MVP delivery, using
+                  data-driven insights to optimize workflow.
+                </li>
+                <li className="list-disc pl-2">
+                  Overseeing QA testing and release management, ensuring product
+                  quality and functionality before deployment.
+                </li>
+              </ul>
+              <p className="mt-2">
+                This experience has strengthened my ability to lead diverse
+                teams, deliver high-quality products, and bridge the gap between
+                user needs and technical execution — all while fostering
+                collaboration and continuous improvement.
+              </p>
+              <h4 className="text-xl font-semibold mt-8">
+                Product Manager Intern - HNG
               </h4>
               <p className="mt-4 mb-4">
                 HNG is a fast paced bootcamp for learning digital skills focused
@@ -129,9 +220,9 @@ export default function Home() {
                 work in teams to build apps and solve problems.
               </p>
               <p>
-                I am a team member and sub team lead for team telex. My team
-                members and I are currently building a real time notification
-                app for IT professionals.
+                I was a team member and a sub team lead for team telex. My team
+                members and I built a real time notification app for IT
+                professionals.
               </p>
             </div>
           </div>
