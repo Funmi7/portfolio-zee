@@ -43,7 +43,7 @@ const techSkills = [
     icon: toolsImg,
     name: "Product Management Tools",
     details:
-      "Proficiency with product management and project management tools like Linear, Jira, Trello, Asana, and Confluence to track progress and manage tasks",
+      "Proficiency with product management and project management tools like Linear, Jira, Trello, Asana, and Clickup to track progress and manage tasks",
   },
   {
     icon: writingImg,

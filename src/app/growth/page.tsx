@@ -60,18 +60,17 @@ const Growth = () => {
             </div>
             <div className="w-full md:w-1/2">
               <p>
-                Whilst working as a product manager intern in HNG with team
-                telex, I have learned a lot and improved in the following
+                Whilst working as a product manager/scrum master at She Code
+                Africa, I have learned a lot and improved in the following
                 aspects:
               </p>
 
               <p className="mt-6">
-                <b>Knowledge Expansion:</b> Collaborating with other interns and
-                mentors from different tracks (developers, designers, video
-                marketers, data analysts etc.) has allowed me to learn about
-                various aspects of product development, including technical
-                constraints, user experience design principles, and marketing
-                strategies
+                <b>Knowledge Expansion:</b> Collaborating with other product
+                managers, engineers, stakeholders and across cross-functional
+                teams has allowed me to learn about various aspects of product
+                development, including technical constraints, user experience
+                design principles, and marketing strategies
               </p>
 
               <p className="mt-6">
@@ -85,35 +84,6 @@ const Growth = () => {
                 Facing unique challenges that requires innovative solutions has
                 enabled me hone my problem-solving skills as I work with others
                 to overcome obstacles.
-              </p>
-              <p className="mt-6">
-                <b>Network Building: </b>
-                Interacting with professionals, mentors and interns from various
-                tracks has expanded my professional network, which can provide
-                support, resources, and opportunities for future growth.
-              </p>
-
-              <p className="mt-6">
-                I have learned a lot and still learning and gaining much needed
-                experience from{" "}
-                <Link
-                  href="https://hng.tech/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-purple"
-                >
-                  HNG Tech
-                </Link>{" "}
-                and{" "}
-                <Link
-                  href="https://hng.tech/internship"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-purple"
-                >
-                  HNG Internship
-                </Link>
-                .
               </p>
             </div>
           </section>

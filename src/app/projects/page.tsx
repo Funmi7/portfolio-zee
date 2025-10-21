@@ -30,7 +30,7 @@ const Projects = () => {
       </h1>
       <Fade>
         <AnimatedSection>
-          <section className="grid grid-cols-2 mt-10 gap-12">
+          <section className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-12">
             <div className="w-full">
               <div className="w-full min-h-[250px] md:min-h-[350px]">
                 <Carousel
@@ -83,7 +83,7 @@ const Projects = () => {
                 </li>
                 <li>
                   Manage product backlogs and create actionable user stories and
-                  tickets using ClickUp.
+                  tickets using Linear.
                 </li>
                 <li>
                   Collaborate closely with cross-functional teams — including
@@ -106,7 +106,7 @@ const Projects = () => {
               </h4>
               <ul className="list-disc flex flex-col gap-3 ml-3">
                 <li>Google docs</li>
-                <li>Clickup</li>
+                <li>Linear</li>
                 <li>Google sheets</li>
                 <li>Figma</li>
                 <li>Notion</li>
@@ -252,7 +252,7 @@ const Projects = () => {
                 </li>
                 <li>
                   <b>Roadmap & Sprint Planning: </b>Created a detailed product
-                  roadmap and prioritized backlog items using ClickUp, ensuring
+                  roadmap and prioritized backlog items using Linear, ensuring
                   timely delivery of features.
                 </li>
                 <li>
@@ -284,7 +284,7 @@ const Projects = () => {
               <ul className="list-disc flex flex-col gap-3 ml-3">
                 <li>Google docs</li>
                 <li>Google sheets</li>
-                <li>Clickup</li>
+                <li>Linear</li>
                 <li>Figma</li>
                 <li>Slack</li>
               </ul>
@@ -342,6 +342,7 @@ const Projects = () => {
                 <li>Google sheets</li>
                 <li>Figma</li>
                 <li>Slack</li>
+                <li>Github</li>
               </ul>
             </div>
           </section>
